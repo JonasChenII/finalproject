@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Restaurants | NYC Asian Eats</title>
+  <meta name="description" content="Chinese, Thai, and Korean restaurant recommendations in NYC with addresses and highlights.">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="javascript.js" defer></script>
+</head>
+
+<body>
+    <!-- background audio -->
+  <div class="audio-float" aria-label="Site audio player">
+  <audio class="audio-player" controls>
+    <source src="media/maple.m4a" type="audio/mp4">
+    Your browser does not support the audio element.
+  </audio>
+  </div>
+  
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Restaurants</h1>
+      <p class="site-tagline">Highlights + addresses for each pick</p>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cuisines.html">Cuisines</a></li>
+          <li><a href="restaurants.html" aria-current="page">Restaurants</a></li>
+        </ul>
+      </nav>
+
+      <nav class="sub-nav" aria-label="On this page">
+        <ul>
+          <li><a href="#chinese">Chinese</a></li>
+          <li><a href="#thai">Thai</a></li>
+          <li><a href="#korean">Korean</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="site-main">
+
+    <!-- Chinese -->
+    <section id="chinese" class="container section-block">
+      <h2>Chinese</h2>
+      <p class="section-intro">Sichuan flavors, hotpot, and bold spice done right.</p>
+
+      <div class="card-grid">
+        <!-- Lunar -->
+        <article class="card restaurant-card">
+          <img
+            src="images/lunar.jpg"
+            srcset="images/lunar.jpg 1x, images/lunar@2x.jpg 2x"
+            width="800"
+            height="533"
+            alt="A dish photo from Lunar, representing modern Sichuan-style Chinese cuisine">
+
+          <h3>Lunar</h3>
+          <p class="address">12 E 37th St, New York, NY 10016</p>
+
+          <p>
+            Authentic Sichuan flavors with creative twists. The crispy fried tangyuan
+            (glutinous rice balls) is a surprise hit — crunchy outside, satisfying, and
+            seriously addictive.
+          </p>
+
+          <ul class="highlights">
+            <li>Style: Sichuan + innovative dishes</li>
+            <li>Must-try: crispy fried tangyuan</li>
+          </ul>
+
+          <p class="card-actions">
+            <button class="button secondary js-copy" type="button"
+              data-address="12 E 37th St, New York, NY 10016">
+              Copy address
+            </button>
+            <span class="copy-status" aria-live="polite"></span>
+          </p>
+        </article>
+
+        <!-- Chongqing Lao Zao -->
+        <article class="card restaurant-card">
+          <img
+            src="images/chongqinghotpot.jpg"
+            srcset="images/chongqinghotpot.jpg 1x, images/chongqinghotpot@2x.jpg 2x"
+            width="800"
+            height="533"
+            alt="A hotpot photo representing Chongqing Lao Zao in Flushing">
+
+          <h3>Chongqing Lao Zao</h3>
+          <p class="address">37-04 Prince St, Flushing, NY 11354</p>
+
+          <p>
+            A truly authentic Chongqing hotpot experience. Ingredients are fresh and
+            feel like they’re sourced the same day. The spicy “mala” xiao junggan
+            left a strong impression — bold, punchy, and unforgettable.
+          </p>
+
+          <ul class="highlights">
+            <li>Style: authentic Chinese hotpot</li>
+            <li>Memorable: mala xiao junggan</li>
+          </ul>
+
+          <p class="card-actions">
+            <button class="button secondary js-copy" type="button"
+              data-address="37-04 Prince St, Flushing, NY 11354">
+              Copy address
+            </button>
+            <span class="copy-status" aria-live="polite"></span>
+          </p>
+        </article>
+      </div>
+
+      <p class="back-top"><a href="#main">Back to top</a></p>
+    </section>
+
+    <!-- Thai -->
+    <section id="thai" class="container section-block">
+      <h2>Thai</h2>
+      <p class="section-intro">Sweet-sour sauces, rich curry, and street-style bites.</p>
+
+      <div class="card-grid">
+        <!-- Pranakhon -->
+        <article class="card restaurant-card">
+          <img
+            src="images/pranakhon.jpg"
+            srcset="images/pranakhon.jpg 1x, images/pranakhon@2x.jpg 2x"
+            width="800"
+            height="533"
+            alt="A dish photo from Pranakhon, representing Thai cuisine">
+
+          <h3>Pranakhon</h3>
+          <p class="address">88 University Pl, New York, NY 10003</p>
+
+          <p>
+            A Lisa-recommended spot that totally makes sense once you taste it.
+            The sweet-and-sour sauce pairs beautifully with a rich curry and seafood —
+            it instantly boosts your appetite.
+          </p>
+
+          <ul class="highlights">
+            <li>Known for: celebrity recommendation</li>
+            <li>Flavor: sweet-sour + rich curry + seafood</li>
+          </ul>
+
+          <p class="card-actions">
+            <button class="button secondary js-copy" type="button"
+              data-address="88 University Pl, New York, NY 10003">
+              Copy address
+            </button>
+            <span class="copy-status" aria-live="polite"></span>
+          </p>
+        </article>
+
+        <!-- Sabai Thai -->
+        <article class="card restaurant-card">
+          <img
+            src="images/sabaithai.jpg"
+            srcset="images/sabaithai.jpg 1x, images/sabaithai@2x.jpg 2x"
+            width="800"
+            height="533"
+            alt="A dish photo from Sabai Thai, representing Thai street snacks and BBQ">
+
+          <h3>Sabai Thai</h3>
+          <p class="address">432 Park Ave S, New York, NY 10016</p>
+
+          <p>
+            I picked this place near Koreatown just for convenience, but it ended up
+            being a great surprise. The Thai snacks and BBQ are excellent, and the
+            soft-shell crab is especially impressive — crispy outside, tender inside.
+          </p>
+
+          <ul class="highlights">
+            <li>Unexpected hit: Thai snacks + BBQ</li>
+            <li>Must-try: soft-shell crab</li>
+          </ul>
+
+          <p class="card-actions">
+            <button class="button secondary js-copy" type="button"
+              data-address="432 Park Ave S, New York, NY 10016">
+              Copy address
+            </button>
+            <span class="copy-status" aria-live="polite"></span>
+          </p>
+        </article>
+      </div>
+
+      <p class="back-top"><a href="#main">Back to top</a></p>
+    </section>
+
+    <!-- Korean -->
+    <section id="korean" class="container section-block">
+      <h2>Korean</h2>
+      <p class="section-intro">Top-tier KBBQ, generous banchan, and strong sauces.</p>
+
+      <div class="card-grid">
+        <!-- Antoya -->
+        <article class="card restaurant-card">
+          <img
+            src="images/antoya.jpg"
+            srcset="images/antoya.jpg 1x, images/antoya@2x.jpg 2x"
+            width="800"
+            height="533"
+            alt="A dish photo from Antoya Korean BBQ">
+
+          <h3>Antoya Korean BBQ</h3>
+          <p class="address">37 W 32nd St, New York, NY 10001</p>
+
+          <p>
+            One of the best meat quality experiences in NYC. The side dishes are plentiful,
+            the service is genuinely great, and if your meat isn’t grilled well, they’ll
+            replace it and re-grill it for you.
+          </p>
+
+          <ul class="highlights">
+            <li>Best for: top-tier meat + great service</li>
+            <li>Perk: will replace meat if needed</li>
+          </ul>
+
+          <p class="card-actions">
+            <button class="button secondary js-copy" type="button"
+              data-address="37 W 32nd St, New York, NY 10001">
+              Copy address
+            </button>
+            <span class="copy-status" aria-live="polite"></span>
+          </p>
+        </article>
+
+        <!-- Jungro -->
+        <article class="card restaurant-card">
+          <img
+            src="images/jungro.jpg"
+            srcset="images/jungro.jpg 1x, images/jungro@2x.jpg 2x"
+            width="800"
+            height="533"
+            alt="A dish photo from Jungro BBQ in Koreatown">
+
+          <h3>Jungro BBQ</h3>
+          <p class="address">39 W 32nd St 1st Fl, New York, NY 10001</p>
+
+          <p>
+            Rich banchan options and sauces that feel unique to the spot. The grilled pork
+            belly is the kind of thing you keep thinking about after you leave — simple,
+            satisfying, and hard to forget.
+          </p>
+
+          <ul class="highlights">
+            <li>Highlight: unique sauces + rich banchan</li>
+            <li>Must-try: grilled pork belly</li>
+          </ul>
+
+          <p class="card-actions">
+            <button class="button secondary js-copy" type="button"
+              data-address="39 W 32nd St 1st Fl, New York, NY 10001">
+              Copy address
+            </button>
+            <span class="copy-status" aria-live="polite"></span>
+          </p>
+        </article>
+      </div>
+
+      <p class="back-top"><a href="#main">Back to top</a></p>
+    </section>
+<section id="submit" class="container section-block">
+  <h2>Share your recommendation</h2>
+  <p class="section-intro">
+    Have a favorite Asian spot in NYC? Send it here — I'll check it out.
+  </p>
+
+  <form class="rec-form" action="https://formspree.io/f/mdannarj" method="POST">
+    <div class="form-row">
+      <label for="name">Your name</label>
+      <input id="name" name="name" type="text" autocomplete="name" required>
+    </div>
+
+    <div class="form-row">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" autocomplete="email" required>
+    </div>
+
+    <div class="form-row">
+      <label for="cuisine">Cuisine</label>
+      <select id="cuisine" name="cuisine" required>
+        <option value="">Select one</option>
+        <option value="Chinese">Chinese</option>
+        <option value="Thai">Thai</option>
+        <option value="Korean">Korean</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-row">
+      <label for="restaurant">Restaurant name</label>
+      <input id="restaurant" name="restaurant" type="text" required>
+    </div>
+
+    <div class="form-row">
+      <label for="address">Address (optional)</label>
+      <input id="address" name="address" type="text" placeholder="Street, City, ZIP">
+    </div>
+
+    <div class="form-row">
+      <label for="message">Why do you recommend it?</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+
+    <button class="button" type="submit">Send</button>
+  </form>
+
+  <p class="back-top"><a href="#main">Back to top</a></p>
+</section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> NYC Asian Eats</p>
+    </div>
+  </footer>
+</body>
+</html>
+

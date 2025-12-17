@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>NYC Asian Eats</title>
+  <meta name="description" content="NYC Asian Eats: Chinese, Thai, and Korean restaurant recommendations in New York City.">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- JavaScript -->
+  <script src="javascript.js" defer></script>
+</head>
+
+<body>
+  <!-- background audio -->
+  <div class="audio-float" aria-label="Site audio player">
+  <audio class="audio-player" controls>
+    <source src="media/maple.m4a" type="audio/mp4">
+    Your browser does not support the audio element.
+  </audio>
+  </div>
+
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">NYC Asian Eats</h1>
+      <p class="site-tagline">A personal guide to Asian food in New York City</p>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="cuisines.html">Cuisines</a></li>
+          <li><a href="restaurants.html">Restaurants</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main id="main" class="site-main">
+
+    <!-- Hero / Intro -->
+    <section class="hero">
+      <div class="container">
+        <h2>Explore Asian food across NYC</h2>
+        <p>
+          This site curates a small but thoughtful selection of Chinese, Thai, and Korean
+          restaurants in New York City. Each recommendation is based on personal experience,
+          atmosphere, and standout dishes.
+        </p>
+        <p class="hero-actions">
+          <a class="button" href="cuisines.html">Choose a cuisine</a>
+          <a class="button secondary" href="restaurants.html">View all restaurants</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about">
+      <div class="container">
+        <h2>About this project</h2>
+        <p>
+          NYC Asian Eats is a three-page web project designed to showcase clear structure,
+          responsive layout, and simple interaction. The site begins with an introduction,
+          continues with a cuisine selection page, and ends with detailed restaurant
+          recommendations including addresses and tips.
+        </p>
+        <p>
+          The goal is not to list every restaurant, but to highlight a few strong choices
+          for each cuisine and help users decide where to eat more easily.
+        </p>
+        <p>
+          The background audio is available on all pages and restarts when navigating between pages, 
+          which is expected behavior for a multi-page site.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> NYC Asian Eats</p>
+    </div>
+  </footer>
+</body>
+</html>
+
